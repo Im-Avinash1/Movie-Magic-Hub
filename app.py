@@ -7,7 +7,7 @@ from st_weaviate_connection import WeaviateConnection, WeaviateFilter
 from weaviate.classes.query import Filter
 
 # Constants
-ENV_VARS = ["https://hha2nvjsruetknc5vxwrwa.c0.europe-west2.gcp.weaviate.clod", "nMZuw1z1zvtnjkXXOMGx90ws7YWGSsakItdus", "JaLagsYZvL2KgTDfuXBtifi4uGj8Qz07WUbrjNzq"]
+ENV_VARS = ["WEAVIATE_URL", "WEAVIATE_API_KEY", "COHERE_API_KEY"]
 NUM_RECOMMENDATIONS_PER_ROW = 5
 SEARCH_LIMIT = 10
 
